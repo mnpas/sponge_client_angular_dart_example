@@ -1,4 +1,4 @@
-# sponge_client_angular_dart_example
+# Sponge client example for an AngularDart web app
 The example of the Sponge client for Dart in the [AngularDart](https://webdev.dartlang.org/angular) web application.
 
 Created from templates made available by Stagehand under a BSD-style
