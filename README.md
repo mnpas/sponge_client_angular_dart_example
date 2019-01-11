@@ -16,4 +16,4 @@ items.add(await spongeService.client.call('UpperCase', [newTodo]));
 
  The only change to the source web app is that all list items will be upper case. Note that in this simple example there is no exception handling. If the app doesn't work as expected, please see the JavaScript console.
 
- For more information on Sponge see http://sponge.openksavi.org.
+ For more information on Sponge see https://sponge.openksavi.org.

@@ -42,7 +42,11 @@ class TodoListComponent implements OnInit {
 
   Future<Null> add() async {
     // The Sponge action call.
-    items.add(await spongeService.client.call('UpperCase', [newTodo]));
+    try {
+      items.add(await spongeService.client.call('UpperCase', [newTodo]));
+    } catch (e) {
+      items.add('$e');
+    }
     newTodo = '';
   }
 
