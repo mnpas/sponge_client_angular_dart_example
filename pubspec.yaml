@@ -8,7 +8,7 @@ environment:
 dependencies:
   angular: ^5.0.0
   angular_components: ^0.9.0
-  sponge_client_dart: ^1.7.0 
+  sponge_client_dart: ^1.10.0 
 
 # The Sponge client uses a newer version of quiver than Angular.
 dependency_overrides:
